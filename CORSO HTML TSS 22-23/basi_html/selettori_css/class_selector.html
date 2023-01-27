@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala Cinema</title>
+
+    <style>
+
+        body {
+            background-color: rgb(241, 241, 241);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            
+        }
+
+       .postazione {
+        border: 5px solid rgb(123, 177, 238);
+        width: 100px;
+        height: 100px;
+       }
+
+       .postazione.libera {
+        background-color: rgb(107, 174, 107);
+        border-color: darkgreen;
+       }
+
+       .postazione.occupata {
+        background-color: cadetblue;
+       }
+
+       .postazione.inutilizzabile {
+        opacity: 0.2;
+        border-color: rgb(255, 4, 4);
+        background-color: rgb(191, 46, 46);
+       }
+
+
+    </style>
+
+</head>
+<body>
+   
+    <main>
+        <h1>Prenotazione Sala</h1>
+        <section class="sala">
+            <div class="postazione occupata">
+                01
+            </div>
+            <div class="postazione libera">
+                02
+            </div>
+            <div class="postazione inutilizzabile">
+                03
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

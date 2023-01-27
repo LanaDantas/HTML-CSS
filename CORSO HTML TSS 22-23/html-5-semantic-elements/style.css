@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box; 
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  header {
+    background: yellowgreen;
+    font-size:xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 20%;
+    padding: 1em;
+  }
+
+  .header__titolo {
+    margin-left: 30%;
+    }
+
+  .nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #D7E7D6;
+    flex: 1;
+  }
+
+  .generale {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+
+  .img {
+    width: 300px;
+    height: 230px;
+    padding: 1em;
+  }
+
+  .paragrafo__descizione {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+
+  }
+
+  .main__article {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
+
+  .articolo {
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 4;
+  }
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background: yellowgreen;
+    height: 20%;
+    padding: 1em;
+  }

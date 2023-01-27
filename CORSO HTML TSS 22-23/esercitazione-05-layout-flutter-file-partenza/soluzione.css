@@ -1,0 +1,51 @@
+html, body,h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+nav ul, nav ol {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', 'Arial',sans-serif;
+}
+
+.layout {
+    display: flex;
+}
+
+.card__title, a {
+    color: #1389fd;
+}
+
+.layout__main_content {
+ /*   background-color: rgb(197, 149, 242); */
+    width: 100%;
+    padding-right: 15rem;
+}
+
+.layout__aside_content {
+    width: 25rem;
+   /* background-color: rebeccapurple; */
+}
+
+.header__icons {
+    list-style-type: none;
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__item {
+    width: 33%;
+   /* border: 5px dashed purple; */
+}
+
+.card {
+    border: 1px solid rgb(239, 224, 224);
+    padding: 1rem;
+    margin: 1rem;
+}

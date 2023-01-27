@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="avatar.css">
+</head>
+<style>
+
+
+</style>
+
+<body>
+
+    <div class="button_bar">
+
+        <input onclick="visualizzaAvatar()" type="button" value="visualizza avatar">
+        <button onclick="visualizzaElenco()">visualizza elenco</button>
+    </div>
+
+    <div id="aula">
+
+    </div>
+
+
+
+
+    <script src="elenco_allievi.js"></script>
+    <script src="avatar.js"></script>
+
+    <script>
+
+        function visualizzaAvatar() {
+            renderList("#aula", allievi, renderAvatar)
+
+        }
+
+        function visualizzaElenco() {
+            renderList("#aula", allievi,renderAllievo)
+
+        }
+
+
+        renderList("#aula", allievi,renderAllievo)
+        document.querySelectorAll('.avatar')
+        avatar.classList.add('.avatar--s')
+        
+    //    const av = document.querySelector(".avatar")
+    //    av.classList.add("avatar avatas--s")
+        // console.log("allievi",allievi)
+        // console.log("renderList",renderList)
+    </script>
+</body>
+
+</html>
